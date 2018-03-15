@@ -1,0 +1,102 @@
+body {
+    /*background-image:url("../images/halftone/halftone/halftone.png");*/
+    background-image:url("../images/stardust/stardust/stardust.png");
+    /*background-image:url("../images/halftone/halftone/halftone.png");*/
+    color:rgb(63, 12, 12);
+    min-width: 1400px;
+}
+
+hr {
+    background-color:brown;
+}
+
+#name {
+    margin:10px 0 0 20px;
+}
+
+#navbar {
+    height:78px;
+    border:1px solid brown;
+    position:relative;
+    margin:10px 15%;
+    background-image:url("../images/halftone/halftone/halftone.png");
+}
+
+#button-container {
+    position:absolute;
+    top:0px;
+    right:0;
+}
+
+#body-container {
+    margin:40px 15%;
+    height:450px;
+    background-color:white;
+    border: 1px solid brown;
+    position:relative;
+}
+
+#body-text {
+    width:600px;
+    margin:20px 0 0 20px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size:1.25em;
+    line-height: 25px;
+}
+
+#body-header {
+    margin:15px 0 15px 20px;
+    width:100%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size:2em;
+}
+
+#ph-image {
+    position:absolute;  
+    right:100px;
+    bottom:110px;
+    width:300px;
+    border-left:1px solid brown;
+    padding-left:40px;
+}
+
+#head-container {
+    height:100px;
+    width:100%;
+    background-color:white;
+    border-top:5px solid brown;
+}
+
+#footer-container {
+    height:90px;
+    width:100%;
+    background-color:white;
+    border-bottom:10px solid brown;
+}
+
+.header-name {
+    font-size:3em;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing:6px;
+}
+
+
+.navbutton {
+    text-align:center;
+    float:left;
+    border-left:1px brown solid;
+    padding-top:25px;
+    width: 100px;
+    height:53px;
+    font:1em 'Titillium Web', sans-serif;
+
+}
+
+.clearDiv {
+    clear:both;
+}
+
+.float-list {
+    float:left;
+    margin:20px 10px 20px 10px;
+}
