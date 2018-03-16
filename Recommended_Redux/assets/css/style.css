@@ -65,14 +65,15 @@ hr {
 }
 
 #body-container {
-    margin:0 auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5%;
     padding-top:20px;
     padding-bottom:150px;
     width:70%;
     background-image:url("../images/cream_pixels/cream_pixels/cream_pixels.png");
     border: 1px solid brown;
     position:relative;
-    top:200px;
 }
 
 
